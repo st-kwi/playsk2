@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*font*/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*title*/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  z-index: 0;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 1;
+  right: 30%;
+}
+
+.positioning{
+    position: relative;
+  }
+
+/*features*/
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+#colorme {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#colorme:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* price */
+#pricing {
+  padding: 7% 15%;
+}
+.card {
+  height: 100%;
+  text-align: center;
+}
+
+/* cta */
+#cta{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta-pad {
+  padding: 2% 20%;
+}
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.icons {
+  margin: 1%;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  #title{
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    margin: 30px 0 0;
+  }
+}
